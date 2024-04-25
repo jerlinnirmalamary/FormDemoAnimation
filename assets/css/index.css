@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  background-image: url("../image/img1.jpeg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#apply-btn {
+  border: none;
+  background: linear-gradient(90deg, teal, white);
+
+  border-radius: 5px;
+  color: white;
+  /* position: absolute;
+  top: -50px; */
+}
+
+#apply-btn:hover {
+  background-color: #6dd3dd;
+}
+a {
+  text-decoration: none;
+}
+a > button:hover {
+  color: #f35b04;
+}

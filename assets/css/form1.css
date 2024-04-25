@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Merriweather&family=Roboto+Slab:wght@300&family=Young+Serif&display=swap");
+body {
+  background-image: url("../image/img2.jpg");
+  background-size: cover;
+  font-size: 15px;
+  font-family: "Roboto Slab", serif;
+  min-height: 100vh;
+}
+.container-fluid {
+  /* background-color: #ffb3c6; */
+  margin-top: 30px !important;
+  width: 445px !important;
+  padding: 0 !important;
+  border-radius: 5px;
+}
+.f-outer {
+  overflow: hidden;
+  /* background-color: rgb(43, 226, 67); */
+  width: 100%;
+  height: fit-content;
+}
+
+.f-outer form {
+  display: flex;
+  /* min-height: fit-content; */
+  /* height: fit-content; */
+  /* max-height: 500px; */
+  /* max-height: fit-content; */
+  gap: 9px;
+  margin: 3px;
+  width: 520%;
+  /* background-color: #c8b6ff; */
+}
+
+.coll1,
+.coll2,
+.coll3,
+.coll4,
+.coll5 {
+  all: unset;
+  padding: 10px;
+  width: 18% !important;
+  background-color: #fff;
+  height: fit-content;
+  border-radius: 5px;
+  animation: animi 600ms ease-in-out;
+  /* transition: 600ms ease-in-out; */
+  box-shadow: 2px 2px 3px gray, -2px -2px 3px gray !important;
+}
+
+.word,
+.word1 {
+  margin-top: 0;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.word > span {
+  font-size: 15px;
+}
+
+.if {
+  margin: 0;
+  /* display: none; */
+  font-size: 10px;
+  color: red !important;
+}
+.wd,
+.Redio {
+  margin-top: 2px;
+}
+hr {
+  margin-bottom: 0;
+}
+.gender_Radio {
+  margin-top: 0;
+}
+.gradios {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.form-label {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.wpform-label {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 800;
+}
+input::placeholder {
+  font-size: 10px;
+}
+.first,
+.first1 {
+  margin-top: 5px;
+}
+.p {
+  margin-bottom: 2px;
+}
+.pw {
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+.inpt {
+  border: 1px solid rgb(180, 176, 176);
+  height: 25px;
+  margin-bottom: 6px;
+}
+.inp:hover {
+  border: none;
+}
+.inp:active {
+  border: none;
+}
+.radio {
+  display: flex;
+  gap: 5px;
+  font-size: 15px;
+  margin-top: 3px;
+}
+/*  */
+.rbox {
+  display: none;
+}
+.inck[type="checkbox"]:not(:checked),
+.inck[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999%;
+}
+.inck[type="checkbox"] + label {
+  display: inline-block;
+  padding: 3px 3px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  color: black;
+  background-color: #d3edea;
+}
+.inck[type="checkbox"]:checked + label {
+  color: white;
+  background-color: #0b7a75;
+  transition: 1s;
+}
+/*  */
+.rinput[type="radio"]:not(:checked),
+.rinput[type="radio"]:checked {
+  position: absolute;
+  left: -9999%;
+}
+.rinput[type="radio"] + label {
+  display: inline-block;
+  padding: 4px 3px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  color: black;
+  background-color: #d3edea;
+}
+.rinput[type="radio"]:checked + label {
+  color: white;
+  background-color: #0b7a75;
+  transition: 1s;
+}
+
+/*  */
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.pre_btn1,
+.pre_btn2,
+.pre_btn3,
+.pre_btn4 {
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  background-color: blueviolet;
+}
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.btn5:hover,
+.pre_btn1:hover,
+.pre_btn2:hover,
+.pre_btn3:hover,
+.pre_btn4:hover {
+  background-color: #2196f3;
+  color: white;
+}
+.inpt1,
+.inpt2,
+.inpt3,
+.inpt4 {
+  /* width: 438px; */
+  border: 1px solid rgb(180, 176, 176);
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+.sub1 {
+  margin-top: px;
+  display: flex;
+  justify-content: flex-end;
+}
+.sub2,
+.sub3,
+.sub4,
+.sub5 {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.word2 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cp {
+  font-size: 10px;
+  font-weight: 600;
+  /* background-color: #c8b6ff; */
+  margin-bottom: 7px;
+  color: rgb(71, 68, 68);
+}
+
+.inputc {
+  font-size: 10px;
+}
+
+.inl {
+  font-size: 12px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.red {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+/* @keyframes animi {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-0%);
+  }
+} */
+
+@keyframes animi {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
